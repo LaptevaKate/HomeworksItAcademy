@@ -56,6 +56,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="calculatorScreenPressedButton:" destination="xb0-Mm-pqW" eventType="touchUpInside" id="Nqp-QY-KiJ"/>
+                                    <segue destination="4T7-vq-20w" kind="show" id="BqD-yh-g6F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -256,7 +257,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P8y-w0-IWt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="-100"/>
+            <point key="canvasLocation" x="1108" y="-279"/>
+        </scene>
+        <!--Calculator Screen View Controller-->
+        <scene sceneID="gq8-dW-LLI">
+            <objects>
+                <viewController id="4T7-vq-20w" customClass="CalculatorScreenViewController" customModule="ConstraintsHomework" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="On0-at-4FN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KsI-gq-Lmz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qla-6J-veF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DQl-iT-5Lm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1108" y="432"/>
         </scene>
     </scenes>
     <resources>

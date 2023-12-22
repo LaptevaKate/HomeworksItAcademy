@@ -14,6 +14,7 @@
 		5E16C5CA2B35577200D6CC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E16C5C92B35577200D6CC75 /* Assets.xcassets */; };
 		5E16C5CD2B35577200D6CC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E16C5CB2B35577200D6CC75 /* LaunchScreen.storyboard */; };
 		5E16C5D52B355C3D00D6CC75 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E16C5D42B355C3C00D6CC75 /* MainViewController.swift */; };
+		5E30663A2B35755700149718 /* CalculatorScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3066392B35755700149718 /* CalculatorScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5E16C5CC2B35577200D6CC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E16C5CE2B35577200D6CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E16C5D42B355C3C00D6CC75 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5E3066392B35755700149718 /* CalculatorScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5E16C5C22B35577100D6CC75 /* SceneDelegate.swift */,
 				5E16C5D42B355C3C00D6CC75 /* MainViewController.swift */,
 				5E16C5C42B35577100D6CC75 /* UserScreenViewController.swift */,
+				5E3066392B35755700149718 /* CalculatorScreenViewController.swift */,
 				5E16C5C62B35577100D6CC75 /* Main.storyboard */,
 				5E16C5C92B35577200D6CC75 /* Assets.xcassets */,
 				5E16C5CB2B35577200D6CC75 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E16C5C52B35577100D6CC75 /* UserScreenViewController.swift in Sources */,
+				5E30663A2B35755700149718 /* CalculatorScreenViewController.swift in Sources */,
 				5E16C5C12B35577100D6CC75 /* AppDelegate.swift in Sources */,
 				5E16C5C32B35577100D6CC75 /* SceneDelegate.swift in Sources */,
 				5E16C5D52B355C3D00D6CC75 /* MainViewController.swift in Sources */,
