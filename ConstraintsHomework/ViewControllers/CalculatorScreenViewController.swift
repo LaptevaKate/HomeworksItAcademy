@@ -16,6 +16,7 @@ class CalculatorScreenViewController: UIViewController {
         static let topOpColor: UIColor = .systemBlue
         static let opColor: UIColor = .blue
         static let numColor: UIColor = .systemGray5
+        
     }
     
     //MARK: - Properties
@@ -28,7 +29,7 @@ class CalculatorScreenViewController: UIViewController {
         let textLabel = UILabel()
         textLabel.text = "0"
         textLabel.backgroundColor = ButtonConstants.displayColor
-        textLabel.textColor = ButtonConstants.textColor
+        textLabel.textColor = .white
         textLabel.textAlignment = .right
         return textLabel
     }()
@@ -117,6 +118,15 @@ class CalculatorScreenViewController: UIViewController {
     let fiveButton: UIButton = {
         let button = UIButton()
         button.setTitle("5", for: .normal)
+        button.backgroundColor = ButtonConstants.numColor
+        button.setTitleColor(ButtonConstants.textColor, for: .normal)
+        
+        return button
+    }()
+    
+    let sixButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("6", for: .normal)
         button.backgroundColor = ButtonConstants.numColor
         button.setTitleColor(ButtonConstants.textColor, for: .normal)
         
@@ -249,15 +259,6 @@ class CalculatorScreenViewController: UIViewController {
         return stackView
     }()
     
-    let sixButton: UIButton = {
-        let button = UIButton()
-        button.setTitle("6", for: .normal)
-        button.backgroundColor = ButtonConstants.numColor
-        button.setTitleColor(ButtonConstants.textColor, for: .normal)
-        
-        return button
-    }()
-    
     let containerOfAllStackViews: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
@@ -288,7 +289,7 @@ class CalculatorScreenViewController: UIViewController {
                            bottom: nil,
                            leading: self.safeArea.leadingAnchor,
                            trailing: self.safeArea.trailingAnchor,
-                           paddingTop: 1,
+                           paddingTop: 0,
                            paddingBottom: 0,
                            paddingLeft: 0,
                            paddingRight: 0,
