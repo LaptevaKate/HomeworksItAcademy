@@ -11,7 +11,6 @@ class UserScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
     }
 }
 

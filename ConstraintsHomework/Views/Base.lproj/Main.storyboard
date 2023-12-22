@@ -208,7 +208,7 @@
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="My FirstCompany ." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-rU-Agt">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="My FirstCompany " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-rU-Agt">
                                                                         <rect key="frame" x="103.33333333333334" y="0.0" width="289.66666666666663" height="20.333333333333332"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                                                         <nil key="textColor"/>

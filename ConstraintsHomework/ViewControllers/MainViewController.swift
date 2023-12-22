@@ -8,21 +8,22 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
     
+    //MARK: - @IBOutlets
     @IBOutlet weak var userScreenButton: UIButton!
     @IBOutlet weak var calculatorScreenButton: UIButton!
     
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setUpUserScreenButton()
         setUpCalculatorScreenButton()
-        
+        view.backgroundColor = .systemGray5
     }
-
     
-    func setUpUserScreenButton() {
+    //MARK: - private Methods
+    private func setUpUserScreenButton() {
         userScreenButton.setTitle("First Task Screen", for: .normal)
         userScreenButton.setTitleColor(.white, for: .normal)
         userScreenButton.backgroundColor = .black
@@ -30,7 +31,7 @@ class MainViewController: UIViewController {
         userScreenButton.layer.masksToBounds = true
     }
     
-    func setUpCalculatorScreenButton() {
+    private func setUpCalculatorScreenButton() {
         calculatorScreenButton.setTitle("Second Task Screen", for: .normal)
         calculatorScreenButton.setTitleColor(.white, for: .normal)
         calculatorScreenButton.backgroundColor = .black
@@ -39,15 +40,9 @@ class MainViewController: UIViewController {
     }
     
     
-    
+    //MARK: - @IBActions
     @IBAction func userScreenPressedButton(_ sender: UIButton) {
     }
-    
     @IBAction func calculatorScreenPressedButton(_ sender: UIButton) {
     }
-    
-    
-    
-    
-    
 }

@@ -62,15 +62,31 @@
 			children = (
 				5E16C5C02B35577100D6CC75 /* AppDelegate.swift */,
 				5E16C5C22B35577100D6CC75 /* SceneDelegate.swift */,
-				5E16C5D42B355C3C00D6CC75 /* MainViewController.swift */,
-				5E16C5C42B35577100D6CC75 /* UserScreenViewController.swift */,
-				5E3066392B35755700149718 /* CalculatorScreenViewController.swift */,
-				5E16C5C62B35577100D6CC75 /* Main.storyboard */,
+				5E30663C2B35A32200149718 /* ViewControllers */,
+				5E30663B2B35A22A00149718 /* Views */,
 				5E16C5C92B35577200D6CC75 /* Assets.xcassets */,
-				5E16C5CB2B35577200D6CC75 /* LaunchScreen.storyboard */,
 				5E16C5CE2B35577200D6CC75 /* Info.plist */,
 			);
 			path = ConstraintsHomework;
+			sourceTree = "<group>";
+		};
+		5E30663B2B35A22A00149718 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E16C5CB2B35577200D6CC75 /* LaunchScreen.storyboard */,
+				5E16C5C62B35577100D6CC75 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E30663C2B35A32200149718 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E16C5D42B355C3C00D6CC75 /* MainViewController.swift */,
+				5E16C5C42B35577100D6CC75 /* UserScreenViewController.swift */,
+				5E3066392B35755700149718 /* CalculatorScreenViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
