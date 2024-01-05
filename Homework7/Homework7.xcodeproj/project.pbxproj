@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA7A8342B48052D00A2BCF4 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8332B48052D00A2BCF4 /* AccountModel.swift */; };
+		5EA7A8382B4805B700A2BCF4 /* SettingsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8372B4805B700A2BCF4 /* SettingsDelegate.swift */; };
+		5EA7A83A2B4807EB00A2BCF4 /* FemaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8392B4807EB00A2BCF4 /* FemaleViewController.swift */; };
+		5EA7A83D2B480A0600A2BCF4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A83C2B480A0600A2BCF4 /* CustomButton.swift */; };
+		5EA7A83F2B48146400A2BCF4 /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A83E2B48146400A2BCF4 /* CustomizeViewController.swift */; };
+		5EA7A8412B48173C00A2BCF4 /* MaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8402B48173C00A2BCF4 /* MaleViewController.swift */; };
+		5EA7A8432B4817A800A2BCF4 /* UIImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8422B4817A800A2BCF4 /* UIImages.swift */; };
+		5EA7A8452B481AFB00A2BCF4 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8442B481AFB00A2BCF4 /* GenderViewController.swift */; };
+		5EA7A8472B481B3F00A2BCF4 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA7A8462B481B3F00A2BCF4 /* AvatarViewController.swift */; };
 		5EFA68802B4715D7009DC4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA687F2B4715D7009DC4CD /* AppDelegate.swift */; };
 		5EFA68822B4715D7009DC4CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA68812B4715D7009DC4CD /* SceneDelegate.swift */; };
-		5EFA68842B4715D7009DC4CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA68832B4715D7009DC4CD /* ViewController.swift */; };
+		5EFA68842B4715D7009DC4CD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA68832B4715D7009DC4CD /* MainViewController.swift */; };
 		5EFA68872B4715D7009DC4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA68852B4715D7009DC4CD /* Main.storyboard */; };
 		5EFA68892B4715D9009DC4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA68882B4715D9009DC4CD /* Assets.xcassets */; };
 		5EFA688C2B4715D9009DC4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA688A2B4715D9009DC4CD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EA7A8332B48052D00A2BCF4 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		5EA7A8372B4805B700A2BCF4 /* SettingsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDelegate.swift; sourceTree = "<group>"; };
+		5EA7A8392B4807EB00A2BCF4 /* FemaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemaleViewController.swift; sourceTree = "<group>"; };
+		5EA7A83C2B480A0600A2BCF4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5EA7A83E2B48146400A2BCF4 /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
+		5EA7A8402B48173C00A2BCF4 /* MaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaleViewController.swift; sourceTree = "<group>"; };
+		5EA7A8422B4817A800A2BCF4 /* UIImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImages.swift; sourceTree = "<group>"; };
+		5EA7A8442B481AFB00A2BCF4 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		5EA7A8462B481B3F00A2BCF4 /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
 		5EFA687C2B4715D7009DC4CD /* Homework7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFA687F2B4715D7009DC4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EFA68812B4715D7009DC4CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EFA68832B4715D7009DC4CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EFA68832B4715D7009DC4CD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5EFA68862B4715D7009DC4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EFA68882B4715D9009DC4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFA688B2B4715D9009DC4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +55,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EA7A8302B4801FE00A2BCF4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA68812B4715D7009DC4CD /* SceneDelegate.swift */,
+				5EFA687F2B4715D7009DC4CD /* AppDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5EA7A8312B48021200A2BCF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA68852B4715D7009DC4CD /* Main.storyboard */,
+				5EFA688A2B4715D9009DC4CD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EA7A8322B48026800A2BCF4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA68832B4715D7009DC4CD /* MainViewController.swift */,
+				5EA7A83E2B48146400A2BCF4 /* CustomizeViewController.swift */,
+				5EA7A8442B481AFB00A2BCF4 /* GenderViewController.swift */,
+				5EA7A8462B481B3F00A2BCF4 /* AvatarViewController.swift */,
+				5EA7A8402B48173C00A2BCF4 /* MaleViewController.swift */,
+				5EA7A8392B4807EB00A2BCF4 /* FemaleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5EA7A8352B48056C00A2BCF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7A8332B48052D00A2BCF4 /* AccountModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EA7A8362B48058A00A2BCF4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7A8372B4805B700A2BCF4 /* SettingsDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5EA7A83B2B4809DF00A2BCF4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5EA7A83C2B480A0600A2BCF4 /* CustomButton.swift */,
+				5EA7A8422B4817A800A2BCF4 /* UIImages.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		5EFA68732B4715D7009DC4CD = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +130,13 @@
 		5EFA687E2B4715D7009DC4CD /* Homework7 */ = {
 			isa = PBXGroup;
 			children = (
-				5EFA687F2B4715D7009DC4CD /* AppDelegate.swift */,
-				5EFA68812B4715D7009DC4CD /* SceneDelegate.swift */,
-				5EFA68832B4715D7009DC4CD /* ViewController.swift */,
-				5EFA68852B4715D7009DC4CD /* Main.storyboard */,
+				5EA7A8302B4801FE00A2BCF4 /* Helpers */,
+				5EA7A83B2B4809DF00A2BCF4 /* UI */,
+				5EA7A8362B48058A00A2BCF4 /* Protocol */,
+				5EA7A8322B48026800A2BCF4 /* ViewControllers */,
+				5EA7A8352B48056C00A2BCF4 /* Model */,
+				5EA7A8312B48021200A2BCF4 /* View */,
 				5EFA68882B4715D9009DC4CD /* Assets.xcassets */,
-				5EFA688A2B4715D9009DC4CD /* LaunchScreen.storyboard */,
 				5EFA688D2B4715D9009DC4CD /* Info.plist */,
 			);
 			path = Homework7;
@@ -138,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFA68842B4715D7009DC4CD /* ViewController.swift in Sources */,
+				5EFA68842B4715D7009DC4CD /* MainViewController.swift in Sources */,
 				5EFA68802B4715D7009DC4CD /* AppDelegate.swift in Sources */,
+				5EA7A83F2B48146400A2BCF4 /* CustomizeViewController.swift in Sources */,
 				5EFA68822B4715D7009DC4CD /* SceneDelegate.swift in Sources */,
+				5EA7A8382B4805B700A2BCF4 /* SettingsDelegate.swift in Sources */,
+				5EA7A83D2B480A0600A2BCF4 /* CustomButton.swift in Sources */,
+				5EA7A8452B481AFB00A2BCF4 /* GenderViewController.swift in Sources */,
+				5EA7A8412B48173C00A2BCF4 /* MaleViewController.swift in Sources */,
+				5EA7A8432B4817A800A2BCF4 /* UIImages.swift in Sources */,
+				5EA7A83A2B4807EB00A2BCF4 /* FemaleViewController.swift in Sources */,
+				5EA7A8342B48052D00A2BCF4 /* AccountModel.swift in Sources */,
+				5EA7A8472B481B3F00A2BCF4 /* AvatarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
